@@ -3,7 +3,7 @@ const products = [
         id: 1,
         name: "Nước giặt cao cấp BIO AMIDA hương Comfort ",
         image: "images/sanphamgiohang/imgsanpham/Nước giặt cao cấp hương Comfort.jpg",
-        category: "Lau rửa",
+        category: "Giặt Xả",
         description: [
            "🔥 Ưu điểm vượt trội 5in1",
 
@@ -24,7 +24,7 @@ const products = [
         id: 2,
         name: "Nước giặt cao cấp AMIDA HOME",
         image: "images/sanphamgiohang/imgsanpham/Nước giặt cao cấp AMIDA HOME.jpg",
-        category: "Lau rửa",
+        category: "Giặt Xả",
         description: [
        "✅ Loại bỏ 99% vết bẩn cứng đầu",
 
@@ -44,7 +44,7 @@ const products = [
         id: 3,
         name: "Nước giặt cao cấp hương cá ngựa",
         image: "images/sanphamgiohang/imgsanpham/Nước giặt cao cấp hương cá ngựa.jpg",
-        category: "Lau rửa",
+        category: "Giặt Xả",
         description: [
            "✅ Hoạt chất làm sạch gốc thực vật",
 
@@ -62,7 +62,7 @@ const products = [
         id: 4,
         name: "Nước giặt cao cấp hương nước hoa",
         image: "images/sanphamgiohang/imgsanpham/Nước giặt cao cấp hương nước hoa.jpg",
-        category: "Lau rửa",
+        category: "Giặt Xả",
         description: [
             "✅ Hoạt chất làm sạch gốc thực vật",
 
@@ -82,7 +82,7 @@ const products = [
         id: 5,
         name: "Nước giặt cao cấp hương green",
         image: "images/sanphamgiohang/imgsanpham/Nước giặt cao cấp hương green.jpg",
-        category: "Lau rửa",
+        category: "Giặt Xả",
         description: [
            "✅ Hoạt chất làm sạch gốc thực vật",
 
@@ -102,7 +102,7 @@ const products = [
         id: 6,
         name: "Nước giặt cao cấp hương hoa nhiệt đới",
         image: "images/sanphamgiohang/imgsanpham/Nước giặt cao cấp hương hoa nhiệt đới.jpg",
-        category: "Lau rửa",
+        category: "Giặt Xả",
         description: [
                 "✅ Loại bỏ 99% vết bẩn cứng đầu",
 
@@ -123,7 +123,7 @@ const products = [
         id: 7,
         name: "Viên giặt cao cấp BIO AMIDA",
         image: "images/sanphamgiohang/imgsanpham/Viên giặt cao cấp.jpg",
-        category: "Lau rửa",
+        category: "Giặt Xả",
         description: [
             
                 "✅ Loại bỏ 99% vết bẩn cứng đầu",
@@ -146,7 +146,7 @@ const products = [
             id: 8,
             name: "Xả Vải Khô BIO AMIDA Hương Cá Ngựa",
             image: "images/sanphamgiohang/imgsanpham/Xả vải khô hương cá ngựa.jpg",
-            category: "Lau rửa",
+            category: "Giặt Xả",
             description: [
                 "✅ Bảo vệ màu sắc & giữ sợi vải luôn tươi mềm",
 
@@ -165,7 +165,7 @@ const products = [
             id: 9,
             name: "Xả Vải Khô BIO AMIDA Hương Hoa Ly",
             image: "images/sanphamgiohang/imgsanpham/Xả vải khô hương nước hoa.jpg",
-            category: "Lau rửa",
+            category: "Giặt Xả",
             description: [
                 "✅ Bảo vệ màu sắc & giữ sợi vải luôn tươi mềm",    
 
@@ -184,7 +184,7 @@ const products = [
             id: 10,
             name: "Nước xả vải Bio Amida 1,8 KG Hương ComFort",
             image: "images/sanphamgiohang/imgsanpham/Nước xả vải hương Comfort.jpg",
-            category: "Lau rửa",
+            category: "Giặt Xả",
             description: [
                 "✅ Bảo vệ màu sắc & giữ sợi vải luôn tươi mềm",
 
@@ -207,7 +207,7 @@ const products = [
             id: 11,
             name: "Nước xả vải Bio Amida 1,8 KG Hương Dnee",
             image: "images/sanphamgiohang/imgsanpham/Nước xả vải hương Dnee Amida.jpg",
-            category: "Lau rửa",
+            category: "Giặt Xả",
             description: [
                 "✅ Bảo vệ màu sắc & giữ sợi vải luôn tươi mềm",
 
@@ -273,7 +273,7 @@ const products = [
             id: 14,
             name: "Bình Xịt Xua Đuổi Nhặng- Nhặng Xanh- Gián",
             image: "images/sanphamgiohang/imgsanpham/Xịt thông minh xua đổi ruồi -nhặng xanh - gián.jpg",
-            category: "Lau rửa",
+            category: "Tẩy xịt Côn trùng",
             description: [
                 "✅ Xua đuổi ruồi, nhặng xanh, gián hiệu quả",
 
@@ -292,7 +292,7 @@ const products = [
             id: 15,
             name: "Bình Xịt Thông Minh Muỗi - Kiến - Gián",
             image: "images/sanphamgiohang/imgsanpham/Xịt thông minh xua đổi muỗi - kiến - gián.jpg",
-            category: "Lau rửa",
+            category: "Tẩy xịt Côn trùng",
             description: [
                "✅ Tinh dầu thiên nhiên dịu nhẹ",
 
@@ -311,7 +311,7 @@ const products = [
             id: 16,
             name: "Bình xịt tẩy rỉ sét",
             image: "images/sanphamgiohang/imgsanpham/tẩy rỉ sét.webp",
-            category: "Lau rửa",
+            category: "Tẩy xịt Côn trùng",
             description: [
                 "✅ Làm sạch đến 100% vết rỉ sét trên mọi bề mặt kim loại",
 
@@ -330,7 +330,7 @@ const products = [
             id: 17,
             name: "Cốc thả bồn cầu Bio Amida 5 in 1",
             image: "images/sanphamgiohang/imgsanpham/Cốc thả bồn cầu 5in 1.jpg",
-            category: "Lau rửa",
+            category: "Vệ sinh nhà cửa",
             description: [
                 "✅ Khử trùng & khử mùi nhanh chóng",
 
@@ -353,7 +353,7 @@ const products = [
             id: 18,
             name: "Tẩy bồn cầu BIO AMIDA hương quế",
             image: "images/sanphamgiohang/imgsanpham/Tẩy bồn cầu hương quế.jpg",
-            category: "Lau rửa",
+            category: "Vệ sinh nhà cửa",
             description: [
                 "✅ Tẩy rửa bằng công nghệ sinh học tiên tiến Công thức enzyme tự nhiên giúp phân hủy, tẩy sạch cực nhanh các chất bẩn, rêu, mảng bám, cặn bẩn, vết ố vàng, cáu bẩn  hiệu quả mà không cần dùng hóa chất mạnh.",
                 "✅ Diệt khuẩn đến 99%.",
@@ -367,7 +367,7 @@ const products = [
             id: 19,
             name: "Tẩy bồn cầu BIO AMIDA hương bạc hà",
             image: "images/sanphamgiohang/imgsanpham/Tẩy bồn cầu hương bạc hà.jpg",
-            category: "Lau rửa",
+            category: "Vệ sinh nhà cửa",
             description: [
                 "✅ Tẩy rửa bằng công nghệ sinh học tiên tiến Công thức enzyme tự nhiên giúp phân hủy, tẩy sạch cực nhanh các chất bẩn, rêu, mảng bám, cặn bẩn, vết ố vàng, cáu bẩn  hiệu quả mà không cần dùng hóa chất mạnh.",
                 "✅ Diệt khuẩn đến 99%.",
@@ -381,7 +381,7 @@ const products = [
             id: 20,
             name: "Tẩy lồng máy giặt Bio Amida",
             image: "images/sanphamgiohang/imgsanpham/Tẩy lồng máy giặt.jpg",
-            category: "Lau rửa",
+            category: "Vệ sinh nhà cửa",
             description: [
                 "✅ Tẩy sạch nấm mốc, cáu bẩn và mảng bám lâu ngày",
 
@@ -404,7 +404,7 @@ const products = [
             id: 21,
             name: "Tẩy Trắng, Tẩy Mốc BIO AMIDA",
             image: "images/sanphamgiohang/imgsanpham/Tẩy trắng quần áo.jpg",
-            category: "Lau rửa",
+            category: "Vệ sinh nhà cửa",
             description: [
              "✅ Tẩy sạch các vết mốc, ố vàng lâu ngày",
 
@@ -419,7 +419,7 @@ const products = [
             id: 21,
             name: "Thông Tắc Ống Cống BIO AMIDA",
             image: "images/sanphamgiohang/imgsanpham/Thông tắc ống cống.jpg",
-            category: "Lau rửa",
+            category: "Vệ sinh nhà cửa",
             description: [
              "✅ Phân hủy mảng bám & chất thải hiệu quả",
 
@@ -440,7 +440,7 @@ const products = [
             id: 22,
             name: "Tẩy Bọt Tuyết Đa Năng BIO AMIDA",
             image: "images/sanphamgiohang/imgsanpham/Tẩy bọt tuyết đa năng.jpg",
-            category: "Lau rửa",
+            category: "Vệ sinh nhà cửa",
             description: [
               "✅ Tẩy đa năng – làm sạch hoàn hảo",
 
@@ -480,7 +480,7 @@ const products = [
             id: 24,
         name: "Dầu gội Bio Amida 500ml",
         image: "images/sanphamgiohang/imgsanpham/Dầu gội cao cấp 500ml.jpg",
-        category: "Chăm sóc tóc",
+        category: "Chăm sóc cá nhân",
         description: [
             "✅ Chiết xuất thiên nhiên lành tính",
 
@@ -499,7 +499,7 @@ const products = [
            id: 25,
            name: "Dầu gội Bio Amida 800ml",
            image: "images/sanphamgiohang/imgsanpham/Dầu gội cao cấp 800ml.jpg",
-           category: "Chăm sóc tóc",
+           category: "Chăm sóc cá nhân",
            description: [
              "✅ Chiết xuất thiên nhiên lành tính",
 
@@ -518,7 +518,7 @@ const products = [
             id: 26,
             name: "Dầu gội nam 2 in 1 Bio Amida",
             image: "images/sanphamgiohang/imgsanpham/Dầu gội 2in 1 dành cho nam.jpg",
-            category: "Chăm sóc tóc",
+            category: "Chăm sóc cá nhân",
             description: [
                 "✅ Dưỡng tóc chắc khỏe – sạch sâu da đầu",
 
@@ -544,7 +544,7 @@ const products = [
             id: 27,
             name: "Dầu gội phủ bạc Bio Amida ",
             image: "images/sanphamgiohang/imgsanpham/Dầu gội phủ bạc.jpg",
-            category: "Chăm sóc tóc",
+            category: "Chăm sóc cá nhân",
             description: [
                 "✅ Che phủ tóc bạc chỉ sau 1 lần gội",
 
@@ -570,7 +570,7 @@ const products = [
             id: 28,
             name: "Dầu xả Bio Amida 500ml",
             image: "images/sanphamgiohang/imgsanpham/Dầu xả cao cấp 500ml.jpg",
-            category: "Chăm sóc tóc",
+            category: "Chăm sóc cá nhân",
             description: [
                 "✅ Giúp mái tóc bóng mượt & mềm mại",
 
@@ -594,7 +594,7 @@ const products = [
             id: 29,
             name: "Dầu xả Bio Amida 800ml",
             image: "images/sanphamgiohang/imgsanpham/Dầu xả cao cấp 800ml.jpg",
-            category: "Chăm sóc tóc",
+            category: "Chăm sóc cá nhân",
             description: [
                 "✅ Giúp mái tóc bóng mượt & mềm mại",
 
@@ -618,7 +618,7 @@ const products = [
             id: 30,
             name: "Dung dịch vệ sinh phụ nữ Bio Amida 250ml",
             image: "images/sanphamgiohang/imgsanpham/Dung dịch vệ sinh  250ml.jpg",
-            category: "Vệ sinh phụ nữ",
+            category: "Chăm sóc cá nhân",
             description: [
                 "✅ Làm sạch nhẹ nhàng – không gây khô rát",
 
@@ -639,7 +639,7 @@ const products = [
             id: 31,
             name: "Dung dịch vệ sinh phụ nữ Bio Amida 100ml",
             image: "images/sanphamgiohang/imgsanpham/Dung dịch vệ sinh  150ml.jpg",
-            category: "Vệ sinh phụ nữ",
+            category: "Chăm sóc cá nhân",
             description: [
                 "✅ Làm sạch nhẹ nhàng – không gây khô rát",
 
@@ -654,7 +654,7 @@ const products = [
             id: 32,
             name: "Sữa Rửa Tay BIO AMIDA",
             image: "images/sanphamgiohang/imgsanpham/Sữa rửa tay.jpg",
-            category: "Sữa tắm",
+            category: "Chăm sóc cá nhân",
             description: [
              "✅ Làm sạch bụi bẩn, bã nhờn trên tay",
 
@@ -675,7 +675,7 @@ const products = [
             id: 33,
             name: "SỮA TẮM BIO AMIDA 500ml",
             image: "images/sanphamgiohang/imgsanpham/Sữa tắm 500ml.jpg",
-            category: "Sữa tắm",
+            category: "Chăm sóc cá nhân",
             description: [
                 "✅ Chiết xuất thiên nhiên dịu nhẹ",
 
@@ -700,7 +700,7 @@ const products = [
                id: 34,
                name: "SỮA TẮM BIO AMIDA 800ml",
                image: "images/sanphamgiohang/imgsanpham/Sữa tắm 800ml.jpg",
-               category: "Sữa tắm",
+               category: "Chăm sóc cá nhân",
                 description: [
                   "✅ Chiết xuất thiên nhiên dịu nhẹ",
 
@@ -726,7 +726,7 @@ const products = [
               id: 35,
               name: "Kem Đánh Răng Bio Amida",
               image: "images/sanphamgiohang/imgsanpham/Kem đánh răng.jpg",
-              category: "Sữa tắm",
+              category: "Chăm sóc cá nhân",
               description: [
                 "✅ Hơi thở thơm mát dài lâu Tạo cảm giác sảng khoái, giúp bạn tự tin khi giao tiếp.",
                 "✅ Ngăn ngừa và làm sạch mảng bám Làm sạch răng miệng hiệu quả.",
@@ -738,7 +738,7 @@ const products = [
             id: 36,
             name: "Nước lau sàn Bio Amida Hương Chanh Sả",
             image: "images/sanphamgiohang/imgsanpham/Lau sàn hương canh xả.jpg.jpg",
-            category: "Lau rửa",
+            category: "Vệ sinh nhà cửa",
             description: [
                 "✅ Loại bỏ bụi bẩn, dầu mỡ & vi khuẩn nhanh chóng bằng công nghệ sinh học",
 
@@ -754,7 +754,7 @@ const products = [
             id: 37,
             name: "Nước lau sàn Bio Amida Hương Hoa Ly",
             image: "images/sanphamgiohang/imgsanpham/Lau sàn hương hoa ly.jpg",
-            category: "Lau rửa",
+            category: "Vệ sinh nhà cửa",
             description: [
                 "✅ Loại bỏ bụi bẩn, dầu mỡ & vi khuẩn nhanh chóng bằng công nghệ sinh học",
 
@@ -769,7 +769,7 @@ const products = [
             id: 38,
             name: "Nước lau sàn Bio Amida Hương Quế",
             image: "images/sanphamgiohang/imgsanpham/Lau sàn hương quế.webp",
-            category: "Lau rửa",
+            category: "Vệ sinh nhà cửa",
             description: [
                 "✅ Loại bỏ bụi bẩn, dầu mỡ & vi khuẩn nhanh chóng bằng công nghệ sinh học",
 
@@ -784,7 +784,7 @@ const products = [
             id: 39,
             name: "Nước lau kính BIO AMIDA",
             image: "images/sanphamgiohang/imgsanpham/Nước lau kính.jpg",
-            category: "Lau rửa",
+            category: "Vệ sinh nhà cửa",
             description: [
                "✅ Làm sạch bóng bề mặt kính",
 
@@ -805,7 +805,7 @@ const products = [
             id: 40,
             name: "Nước rửa chén hương chanh 800ml và 1.6kg",
             image: "images/sanphamgiohang/imgsanpham/Nước rửa chén hương chanh.jpg",
-            category: "Lau rửa",
+            category: "Vệ sinh nhà cửa",
             description: [
             
                 "👐Công thức chiết xuất hoàn toàn từ thiên nhiên",
@@ -823,7 +823,7 @@ const products = [
             id: 41,
             name: "Nước rửa chén hương chanh 3.6kg và 10kg",
             image: "images/sanphamgiohang/imgsanpham/Nước rửa chén hương chanh 10kg.jpg",
-            category: "Lau rửa",
+            category: "Vệ sinh nhà cửa",
             description:  [
             
                "👐Công thức chiết xuất hoàn toàn từ thiên nhiên",
@@ -841,7 +841,7 @@ const products = [
             id: 42,
             name: "Nước rửa chén hương chanh xả 800ml và 1.6kg",
             image: "images/sanphamgiohang/imgsanpham/Nước rửa chén hương chanh xả.jpg",
-            category: "Lau rửa",
+            category: "Vệ sinh nhà cửa",
             description: [
             
                "👐Công thức chiết xuất hoàn toàn từ thiên nhiên",
@@ -859,7 +859,7 @@ const products = [
             id: 43,
             name: "Nước rửa chén hương chanh xả 3.6kg và 10kg",
             image: "images/sanphamgiohang/imgsanpham/Nước rửa chén hương chanh xả 10kg.jpg",
-            category: "Lau rửa",
+            category: "Vệ sinh nhà cửa",
             description: [
             
                "👐Công thức chiết xuất hoàn toàn từ thiên nhiên",
@@ -877,7 +877,7 @@ const products = [
             id: 44,
             name: "Nước rửa chén hương quế 800ml và 1.6kg",
             image: "images/sanphamgiohang/imgsanpham/Nước rửa chén hương quế.jpg",
-            category: "Lau rửa",
+            category: "Vệ sinh nhà cửa",
             description: [
             
                 "👐Công thức chiết xuất hoàn toàn từ thiên nhiên",
@@ -895,7 +895,7 @@ const products = [
             id: 45,
             name: "Nước rửa chén hương quế 3.6kg và 10kg",
             image: "images/sanphamgiohang/imgsanpham/Nước rửa chén hương quế 10kg.jpg",
-            category: "Lau rửa",
+            category: "Vệ sinh nhà cửa",
             description:  [
             
                "👐Công thức chiết xuất hoàn toàn từ thiên nhiên",
@@ -913,7 +913,7 @@ const products = [
             id: 46,
             name: "Nước rửa chén hương trà xanh 800ml và 1.6kg",
             image: "images/sanphamgiohang/imgsanpham/Nước rửa chén hương trà xanh.jpg",
-            category: "Lau rửa",
+            category: "Vệ sinh nhà cửa",
             description: [
             
                "👐Công thức chiết xuất hoàn toàn từ thiên nhiên",
@@ -931,7 +931,7 @@ const products = [
             id: 47,
             name: "Nước rửa chén hương trà xanh 3.6kg và 10kg",
             image: "images/sanphamgiohang/imgsanpham/Nước rửa chén hương trà xanh 10kg.jpg",
-            category: "Lau rửa",
+            category: "Vệ sinh nhà cửa",
             description: [
             
                "👐Công thức chiết xuất hoàn toàn từ thiên nhiên",
