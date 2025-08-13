@@ -1038,7 +1038,7 @@ function showProductModal(productId) {
                         </div>
                         <div class="product-details">
                             <h2>${product.name}</h2>
-                            <p class="category">Thành phần: </p>
+                            <p class="category">Công Dụng: </p>
                             <p class="description">${product.description.map(item => `<li>${item}</li>`).join('')}</p>
                             <button class="contact-btn">Liên Hệ Tư Vấn</button>
                         </div>
