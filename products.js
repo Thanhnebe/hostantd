@@ -1,74 +1,11 @@
 const products = [
     {
         id: 1,
-        name: "Kem đánh răng Bio Amida",
-        image: "images/sanphamgiohang/imgsanpham/1.webp",
-        category: "Chăm sóc răng miệng",
-        description: [
-            "✅ Hơi thở thơm mát dài lâu",
-            "Tạo cảm giác sảng khoái, giúp bạn tự tin khi giao tiếp.",
-
-            "✅ Ngăn ngừa và làm sạch mảng bám",
-            "Làm sạch răng miệng hiệu quả, hỗ trợ ngăn ngừa vi khuẩn và các vấn đề về răng nướu, làm dịu khoang miệng",
-
-            "✅ Chiết xuất sinh học an toàn",
-            "Chiết xuất từ hạt trà xanh, dịu nhẹ với răng nhạy cảm – an toàn cho cả người lớn và trẻ em, thích hợp cho người hay bị chảy máu chân răng, viêm lợi, nhiệt miệng, tụt lợi, viêm quanh răng.",
-
-            "✅ Tự tin với nụ cười rạng rỡ",
-            "Sạch miệng, sáng răng, hơi thở dễ chịu – giúp bạn luôn sẵn sàng tỏa sáng!"
-        ]
-    },
-    {
-        id: 2,
-        name: "TẨY NHÀ VỆ SINH BIO AMIDA hương quế",
-        image: "images/sanphamgiohang/imgsanpham/2.webp",
+        name: "Nước giặt cao cấp BIO AMIDA hương Comfort",
+        image: "images/sanphamgiohang/imgsanpham/Nước giặt cao cấp hương Comfort.jpg",
         category: "Lau rửa",
         description: [
-            "✅ Tẩy rửa bằng công nghệ sinh học tiên tiến",
-
-            "Công thức enzyme tự nhiên giúp phân hủy, tẩy sạch cực nhanh các chất bẩn, rêu, mảng bám, cặn bẩn, vết ố vàng, cáu bẩn  hiệu quả mà không cần dùng hóa chất mạnh.",
-            
-            "✅ Diệt khuẩn đến 99%",
-            
-            "Loại bỏ vi khuẩn, nấm mốc gây mùi hôi và nguy cơ nhiễm khuẩn trên sàn nhà hay các thiết bị men sứ, mang lại không gian vệ sinh an toàn, sạch sẽ.",
-            
-            "✅ Khử trùng – kháng khuẩn – khử mùi hôi",
-            
-            "Hương thơm dịu nhẹ tự nhiên, không nồng hắc, giúp bồn cầu nhà vệ sinh luôn thơm mát dễ chịu, không còn ám mùi khó chịu.",
-            
-            "✅ Giải pháp tẩy rửa tối ưu cho gia đình",
-            
-            "Hiệu quả cao – sử dụng dễ dàng – tiết kiệm thời gian làm sạch mỗi ngày."
-        ]
-    }, {
-        id: 3,
-        name: "TẨY NHÀ VỆ SINH BIO AMIDA hương bạc hà",
-        image: "images/sanphamgiohang/imgsanpham/33.webp",
-        category: "Lau rửa",
-        description: [
-            "✅ Tẩy rửa bằng công nghệ sinh học tiên tiến",
-
-            "Công thức enzyme tự nhiên giúp phân hủy, tẩy sạch cực nhanh các chất bẩn, rêu, mảng bám, cặn bẩn, vết ố vàng, cáu bẩn  hiệu quả mà không cần dùng hóa chất mạnh.",
-            
-            "✅ Diệt khuẩn đến 99%",
-            
-            "Loại bỏ vi khuẩn, nấm mốc gây mùi hôi và nguy cơ nhiễm khuẩn trên sàn nhà hay các thiết bị men sứ, mang lại không gian vệ sinh an toàn, sạch sẽ.",
-            
-            "✅ Khử trùng – kháng khuẩn – khử mùi hôi",
-            
-            "Hương thơm dịu nhẹ tự nhiên, không nồng hắc, giúp bồn cầu nhà vệ sinh luôn thơm mát dễ chịu, không còn ám mùi khó chịu.",
-            
-            "✅ Giải pháp tẩy rửa tối ưu cho gia đình",
-            
-            "Hiệu quả cao – sử dụng dễ dàng – tiết kiệm thời gian làm sạch mỗi ngày."
-        ]
-    }, {
-        id: 4,
-        name: "Nước Giặt Xả Cao Cấp BIO AMIDA Hương Comfort 3.6kg",
-        image: "images/sanphamgiohang/imgsanpham/44.webp",
-        category: "Lau rửa",
-        description: [
-            "🔥 Ưu điểm vượt trội 5in1",
+           "🔥 Ưu điểm vượt trội 5in1",
 
             "✅ Hoạt chất làm sạch gốc thực vật",
             
@@ -80,69 +17,128 @@ const products = [
             
             "✅ Phù hợp cho các loại máy giặt, cả giặt máy và giặt tay",
             
+            "✅ Độ PH trung tính tránh ăn mòn, hại vải quần áo."
+        ]
+    },
+    {
+        id: 2,
+        name: "Nước giặt cao cấp AMIDA HOME",
+        image: "images/sanphamgiohang/imgsanpham/Nước giặt cao cấp AMIDA HOME.jpg",
+        category: "Lau rửa",
+        description: [
+       "✅ Loại bỏ 99% vết bẩn cứng đầu",
+
+                "Công nghệ sử dụng enzyme hữu cơ giúp đánh bay mồ hôi, dầu mỡ, vết thức ăn... bóc tách chất bẩn mà không cần chà mạnh, sạch sâu vết bẩn, tiết kiệm thời gian giặt.",
+                
+                "✅ Bảo vệ màu sắc & sợi vải mềm mịn",
+                
+                "Giữ cho quần áo luôn bền màu, không phai, không xù lông – kể cả sau nhiều lần giặt.",
+                
+                "✅ Lưu hương 3 tầng bền lâu, thơm tự nhiên",
+                
+                "Chiết xuất hương độc quyền tạo mùi thơm nhẹ dịu, dễ chịu – không gắt, không hóa chất, thời gian lưu hương lên tới 7 ngày.",
+                
+                "✅ An toàn cho da bé & da nhạy cảm"
+        ]
+    }, {
+        id: 3,
+        name: "Nước giặt cao cấp hương cá ngựa",
+        image: "images/sanphamgiohang/imgsanpham/Nước giặt cao cấp hương cá ngựa.jpg",
+        category: "Lau rửa",
+        description: [
+           "✅ Hoạt chất làm sạch gốc thực vật",
+
+            "✅ Loại bỏ vết bẩn nhanh chóng",
+
+            "✅ Lưu hương suốt ngày dài",
+
+            "✅ Giữ màu tốt cho quần áo",   
+
+            "✅ Phù hợp cho các loại máy giặt, cả giặt máy và giặt tay",
+
+            "✅ Độ PH trung tính tránh ăn mòn, hại vải quần áo."
+        ]
+    }, {
+        id: 4,
+        name: "Nước giặt cao cấp hương nước hoa",
+        image: "images/sanphamgiohang/imgsanpham/Nước giặt cao cấp hương nước hoa.jpg",
+        category: "Lau rửa",
+        description: [
+            "✅ Hoạt chất làm sạch gốc thực vật",
+
+            "✅ Loại bỏ vết bẩn nhanh chóng",
+
+            "✅ Lưu hương suốt ngày dài",
+
+            "✅ Giữ màu tốt cho quần áo",
+
+            "✅ Phù hợp cho các loại máy giặt, cả giặt máy và giặt tay",
+
             "✅ Độ PH trung tính tránh ăn mòn, hại vải quần áo."
             
         ]
     },
     {
         id: 5,
-        name: "Nước Giặt Cao Cấp BIO AMIDA Hương Comfort 3.6kg",
-        image: "images/sanphamgiohang/imgsanpham/55.webp",
+        name: "Nước giặt cao cấp hương green",
+        image: "images/sanphamgiohang/imgsanpham/Nước giặt cao cấp hương green.jpg",
         category: "Lau rửa",
         description: [
-            "✅ Ưu điểm vượt trội 5in1",
+           "✅ Hoạt chất làm sạch gốc thực vật",
 
-            "✅ Hoạt chất làm sạch gốc thực vật",
-            
             "✅ Loại bỏ vết bẩn nhanh chóng",
-            
+
             "✅ Lưu hương suốt ngày dài",
-            
+
             "✅ Giữ màu tốt cho quần áo",
             
             "✅ Phù hợp cho các loại máy giặt, cả giặt máy và giặt tay",
-            
+
             "✅ Độ PH trung tính tránh ăn mòn, hại vải quần áo."
             
         ]
     },
     {
         id: 6,
-        name: "Nước Giặt Cao Cấp BIO AMIDA Hương Comfort 3.6kg",
-        image: "images/sanphamgiohang/imgsanpham/5.webp",
+        name: "Nước giặt cao cấp hương hoa nhiệt đới",
+        image: "images/sanphamgiohang/imgsanpham/Nước giặt cao cấp hương hoa nhiệt đới.jpg",
         category: "Lau rửa",
         description: [
-            "✅ Ưu điểm vượt trội 5in1",
+                "✅ Loại bỏ 99% vết bẩn cứng đầu",
 
-            "✅ Hoạt chất làm sạch gốc thực vật",
-            
-            "✅ Loại bỏ vết bẩn nhanh chóng",
-            
-            "✅ Lưu hương suốt ngày dài",
-            
-            "✅ Giữ màu tốt cho quần áo",
-            
-            "✅ Phù hợp cho các loại máy giặt, cả giặt máy và giặt tay",
-            
-            "✅ Độ PH trung tính tránh ăn mòn, hại vải quần áo."
+                "Công nghệ sử dụng enzyme hữu cơ giúp đánh bay mồ hôi, dầu mỡ, vết thức ăn... bóc tách chất bẩn mà không cần chà mạnh, sạch sâu vết bẩn, tiết kiệm thời gian giặt.",
+                
+                "✅ Bảo vệ màu sắc & sợi vải mềm mịn",
+                
+                "Giữ cho quần áo luôn bền màu, không phai, không xù lông – kể cả sau nhiều lần giặt.",
+                
+                "✅ Lưu hương 3 tầng bền lâu, thơm tự nhiên",
+                
+                "Chiết xuất hương độc quyền tạo mùi thơm nhẹ dịu, dễ chịu – không gắt, không hóa chất, thời gian lưu hương lên tới 7 ngày.",
+                
+                "✅ An toàn cho da bé & da nhạy cảm"
         ]
     },
     {
         id: 7,
-        name: "Nước rửa chén hương trà xanh 3.6kg và 10kg",
-        image: "images/sanphamgiohang/imgsanpham/66.webp",
+        name: "Viên giặt cao cấp BIO AMIDA",
+        image: "images/sanphamgiohang/imgsanpham/Viên giặt cao cấp.jpg",
         category: "Lau rửa",
         description: [
             
-            "👐Công thức chiết xuất hoàn toàn từ thiên nhiên",
+                "✅ Loại bỏ 99% vết bẩn cứng đầu",
 
-            "👐 Giúp bát đĩa sạch bóng, thơm tự nhiên",
-            
-            "👐 Dịu nhẹ với da tay, không gây khô ráp hay kích ứng",
-            
-            "👐 Phân hủy sinh học 100%, bảo vệ sức khỏe gia đình và thiên nhiên",
-            
-            "🌸 MÙI HƯƠNG TỰ NHIÊN – TƯƠI MÁT MỖI LẦN RỬA"
+                "Công nghệ sử dụng enzyme hữu cơ giúp đánh bay mồ hôi, dầu mỡ, vết thức ăn... bóc tách chất bẩn mà không cần chà mạnh, sạch sâu vết bẩn, tiết kiệm thời gian giặt.",
+                
+                "✅ Bảo vệ màu sắc & sợi vải mềm mịn",
+                
+                "Giữ cho quần áo luôn bền màu, không phai, không xù lông – kể cả sau nhiều lần giặt.",
+                
+                "✅ Lưu hương 3 tầng bền lâu, thơm tự nhiên",
+                
+                "Chiết xuất hương độc quyền tạo mùi thơm nhẹ dịu, dễ chịu – không gắt, không hóa chất, thời gian lưu hương lên tới 7 ngày.",
+                
+                "✅ An toàn cho da bé & da nhạy cảm"
         ]
     },
     {
