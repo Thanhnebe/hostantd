@@ -1,3 +1,28 @@
+const chungnhan = [
+    {
+
+
+        id:1,src:"images/chungnhan/chungnhan1.jpg",
+      
+
+
+
+
+    },
+    {
+          id:2,src:"images/chungnhan/chungnhancucchinhtri.jpeg",
+      
+    },
+    {  id:3,src:"images/chungnhan/cn5.png",
+    },
+    {
+        id:4,src:"images/chungnhan/cn4.png",
+
+    }
+]
+
+
+
 
 const dealerImages2 = [
 
@@ -90,8 +115,8 @@ function renderGallery() {
     const galleryGrid2 = document.getElementById('galleryGrid2');
     const quytrinhGrid = document.getElementById('quytrinh');
     if (galleryGrid) {
-        currentGallery = dealerImages2;
-        const galleryHTML = dealerImages2.map(image => createGalleryItem(image)).join('');
+        currentGallery = chungnhan;
+        const galleryHTML = chungnhan.map(image => createGalleryItem(image)).join('');
         galleryGrid.innerHTML = galleryHTML;
     }
     else if (galleryGrid2) {
