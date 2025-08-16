@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chính Sách Đại Lý - Bio Amida</title>
+    <meta name="description" content="Chính sách hỗ trợ, cam kết và quyền lợi dành cho đại lý Bio Amida toàn quốc">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        .policy-gallery {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+        
+        .policy-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .policy-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .policy-header h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .policy-header p {
+            font-size: 1.2rem;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        
+        .policy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .policy-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .policy-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .policy-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        
+        .policy-card:hover img {
+            transform: scale(1.05);
+        }
+        
+        .policy-card-content {
+            padding: 25px;
+        }
+        
+        .policy-card h3 {
+            font-size: 1.3rem;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .policy-card p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .view-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .view-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        .back-home {
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        .back-btn {
+            background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 25px rgba(46, 204, 113, 0.3);
+        }
+        
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            padding-top: 60px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+        
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 90%;
+            max-width: 900px;
+            max-height: 80%;
+            object-fit: contain;
+        }
+        
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        
+        .close:hover {
+            color: #bbb;
+        }
+        
+        @media (max-width: 768px) {
+            .policy-header h1 {
+                font-size: 2rem;
+            }
+            
+            .policy-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .policy-card-content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/Logo/Logo/amida.png" loading="lazy" alt="Bio Amida Logo" />
+            </div>
+            <nav class="nav-desktop">
+                <ul>
+                    <li><a href="index.html">Trang Chủ</a></li>
+                    <li><a href="products.html">Sản Phẩm</a></li>
+                    <li><a href="gallery.html">Thư Viện</a></li>
+                    <li><a href="quytrinh.html">Quy Trình</a></li>
+                    <li><a href="chinhsachdai.html" class="active">Chính Sách</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="language-switch">
+                    <a href="#" class="active">VI</a>
+                    <span>/</span>
+                    <a href="#">EN</a>
+                </div>
+                <div class="menu-toggle" onclick="toggleMobileMenu()">☰</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Policy Gallery Section -->
+    <section class="policy-gallery">
+        <div class="policy-container">
+            <div class="policy-header" data-aos="fade-up">
+                <h1>Chính Sách Đại Lý Bio Amida</h1>
+                <p>Tài liệu chính sách, cam kết và quyền lợi dành cho đại lý Bio Amida toàn quốc. 
+                   Tất cả thông tin minh bạch, rõ ràng để đảm bảo quyền lợi cho đối tác.</p>
+            </div>
+
+            <div class="policy-grid">
+                <!-- Chính Sách Card -->
+                <div class="policy-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images/chinhsach/chính sách.jpg" alt="Chính Sách Đại Lý" loading="lazy">
+                    <div class="policy-card-content">
+                        <h3>Chính Sách Đại Lý</h3>
+                        <p>Chính sách hỗ trợ đại lý chi tiết, bao gồm chiết khấu, thưởng doanh số, 
+                           điều kiện trở thành đại lý và các quyền lợi đặc biệt.</p>
+                        <button class="view-btn" onclick="openModal('images/chinhsach/chính sách.jpg')">
+                            <i class="fas fa-eye"></i>
+                            Xem Chi Tiết
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Tổng Kho Card -->
+                <div class="policy-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="images/chinhsach/tổng kho.jpg" alt="Hệ Thống Tổng Kho" loading="lazy">
+                    <div class="policy-card-content">
+                        <h3>Hệ Thống Tổng Kho</h3>
+                        <p>Thông tin về hệ thống kho bãi, quy trình vận chuyển và phân phối 
+                           sản phẩm đến các đại lý trên toàn quốc.</p>
+                        <button class="view-btn" onclick="openModal('images/chinhsach/tổng kho.jpg')">
+                            <i class="fas fa-eye"></i>
+                            Xem Chi Tiết
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Cổ Đông PDF Card -->
+                <div class="policy-card" data-aos="fade-up" data-aos-delay="300">
+                    <div style="height: 250px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-file-pdf" style="font-size: 80px; color: white;"></i>
+                    </div>
+                    <div class="policy-card-content">
+                        <h3>Tài Liệu Cổ Đông</h3>
+                        <p>Tài liệu PDF chính thức về cơ cấu cổ đông, báo cáo tài chính 
+                           và thông tin doanh nghiệp đầy đủ và minh bạch.</p>
+                        <a href="images/chinhsach/cổ đông.pdf" target="_blank" class="view-btn">
+                            <i class="fas fa-download"></i>
+                            Tải Về PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Back to Home -->
+            <div class="back-home" data-aos="fade-up" data-aos-delay="400">
+                <a href="index.html" class="back-btn">
+                    <i class="fas fa-home"></i>
+                    Về Trang Chủ
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-antgroup">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>CÔNG TY TNHH ANT GROUP</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Tầng 2, Tòa nhà An Phát Complex, Đại lộ Vinh - Cửa lò (Đường 72m), Nghi Phú, Phường Vinh Phú, Nghệ An</li>
+                    <li><i class="fas fa-phone"></i> Hotline/Zalo: 0967151598, 0989151576</li>
+                    <li><i class="fab fa-facebook"></i> Fanpage: BIO AMIDA TUYỂN ĐẠI LÝ</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Cam kết & Dịch vụ</h3>
+                <ul>
+                    <li><i class="fas fa-certificate"></i> Sản phẩm đạt chuẩn kiểm nghiệm</li>
+                    <li><i class="fas fa-shipping-fast"></i> Giao hàng toàn quốc</li>
+                    <li><i class="fas fa-money-bill-wave"></i> Thu tiền tận nơi</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-note">
+            &copy; 2024 ANT GROUP – BIO AMIDA. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        // Modal Functions
+        function openModal(imageSrc) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            modal.style.display = 'block';
+            modalImg.src = imageSrc;
+        }
+
+        function closeModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+
+        // Close modal when clicking outside the image
+        window.onclick = function(event) {
+            const modal = document.getElementById('imageModal');
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            if (mobileMenu) {
+                mobileMenu.classList.toggle('active');
+            }
+        }
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+
+</html>
