@@ -1,33 +1,9 @@
 
-const dealerImages = [
-    {
-        id: 1,
-        src: "images/chungnhan/chungnhan1.jpg",
-        alt: "Quy trình đào tạo đại lý Bio Amida",
-        title: "Đào tạo đại lý mới"
-    },
-    {
-        id: 2,
-        src: "images/chungnhan/chungnhancucchinhtri.jpeg",
-        alt: "Quy trình đào tạo đại lý Bio Amida",
-        title: "Đào tạo đại lý mới"
-    },
-    {
-        id: 3,
-        src: "images/chungnhan/cn4.png",
-        alt: "Quy trình đào tạo đại lý Bio Amida",
-        title: "Đào tạo đại lý mới"
-    },
-    {
-        id: 4,
-        src: "images/chungnhan/cn5.png",
-        alt: "Quy trình đào tạo đại lý Bio Amida",
-        title: "Đào tạo đại lý mới"
-    },
-
-];
-
 const dealerImages2 = [
+
+
+
+
     { id: 4, src: "images/anhvanphong/daily/z6829025988859_0ab05326158d2efbf42aa4fe37295633.jpg", alt: "Khai trương ở Kỳ Anh", title: "Khai trương ở Kỳ Anh" },
     { id: 5, src: "images/anhvanphong/daily/z6829026050187_8c448373bec64d21b31932b94da99186.jpg", alt: "Khai trương ở Kỳ Anh", title: "Khai trương ở Kỳ Anh" },
     { id: 6, src: "images/anhvanphong/daily/z6829026190272_f79f77f89659cc8aba86fc4641067c7e.jpg", alt: "Khai trương ở Kỳ Anh", title: "Khai trương ở Kỳ Anh" },
@@ -114,8 +90,8 @@ function renderGallery() {
     const galleryGrid2 = document.getElementById('galleryGrid2');
     const quytrinhGrid = document.getElementById('quytrinh');
     if (galleryGrid) {
-        currentGallery = dealerImages;
-        const galleryHTML = dealerImages.map(image => createGalleryItem(image)).join('');
+        currentGallery = dealerImages2;
+        const galleryHTML = dealerImages2.map(image => createGalleryItem(image)).join('');
         galleryGrid.innerHTML = galleryHTML;
     }
     else if (galleryGrid2) {
@@ -132,7 +108,7 @@ function renderGallery() {
 
 // Lightbox functionality
 let currentImageIndex = 0;
-let currentGallery = dealerImages; // Mặc định, sẽ gán lại khi render gallery 2
+let currentGallery = dealerImages2; // Mặc định, sẽ gán lại khi render gallery 2
 
 function openLightbox(imageId) {
     const modal = document.getElementById('lightboxModal');
