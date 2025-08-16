@@ -737,7 +737,7 @@ const products = [
         {
             id: 36,
             name: "Nước lau sàn Bio Amida Hương Chanh Sả",
-            image: "images/sanphamgiohang/imgsanpham/Lau sàn hương canh xả.jpg.jpg",
+            image: "images/sanphamgiohang/imgsanpham/Lau sàn hương canh xả.jpg",
             category: "Vệ sinh nhà cửa",
             description: [
                 "✅ Loại bỏ bụi bẩn, dầu mỡ & vi khuẩn nhanh chóng bằng công nghệ sinh học",
