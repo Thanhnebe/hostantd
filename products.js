@@ -329,7 +329,7 @@ const products = [
         {
             id: 17,
             name: "Cốc thả bồn cầu Bio Amida 5 in 1",
-            image: "images/sanphamgiohang/imgsanpham/Cốc thả bồn cầu 5in 1.jpg",
+            image: "images/sanphamgiohang/imgsanpham/thaboncau.jpg",
             category: "Vệ sinh nhà cửa",
             description: [
                 "✅ Khử trùng & khử mùi nhanh chóng",
